@@ -1,0 +1,14 @@
+{
+  "name": "tech-challenge-mvp",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev:api": "pnpm --filter @tech-challenge/api dev",
+    "dev:web": "pnpm --filter @tech-challenge/web dev",
+    "dev:mobile": "pnpm --filter @tech-challenge/mobile start",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
